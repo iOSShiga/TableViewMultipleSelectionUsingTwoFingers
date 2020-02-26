@@ -15,6 +15,7 @@
 		D144D85324051E57003581D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144D85124051E57003581D6 /* LaunchScreen.storyboard */; };
 		D144D85E24051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144D85D24051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersTests.swift */; };
 		D144D86924051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144D86824051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersUITests.swift */; };
+		D144D87724051E70003581D6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D144D87624051E70003581D6 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D144D86424051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewMultipleSelectionUsingTwoFingersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D144D86824051E57003581D6 /* TableViewMultipleSelectionUsingTwoFingersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMultipleSelectionUsingTwoFingersUITests.swift; sourceTree = "<group>"; };
 		D144D86A24051E57003581D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D144D87624051E70003581D6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D144D84624051E54003581D6 /* AppDelegate.swift */,
 				D144D84824051E54003581D6 /* SceneDelegate.swift */,
 				D144D84A24051E54003581D6 /* ViewController.swift */,
+				D144D87624051E70003581D6 /* TableViewController.swift */,
 				D144D84C24051E54003581D6 /* Main.storyboard */,
 				D144D84F24051E57003581D6 /* Assets.xcassets */,
 				D144D85124051E57003581D6 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				D144D84B24051E54003581D6 /* ViewController.swift in Sources */,
 				D144D84724051E54003581D6 /* AppDelegate.swift in Sources */,
 				D144D84924051E54003581D6 /* SceneDelegate.swift in Sources */,
+				D144D87724051E70003581D6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = TableViewMultipleSelectionUsingTwoFingers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = TableViewMultipleSelectionUsingTwoFingers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
